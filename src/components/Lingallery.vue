@@ -340,7 +340,7 @@ export default {
       }
     },
     hangSingleImageClick() {
-      console.log('clicked');
+      //
     },
     handleLoader(isLoading) {
       this.isLoading = isLoading
