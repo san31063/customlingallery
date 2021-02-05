@@ -1,6 +1,6 @@
 {
   "name": "mygalleryimage",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "private": false,
   "description": "A simple image gallery component for Vue.js",
   "author": "Sanjay Singh <info@sanjay.com>",
@@ -72,6 +72,8 @@
     "vuejs"
   ],
   "license": "MIT",
+  "main": "./dist/lingallery.common.js",
+  "module": "./dist/lingallery.umd.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/san31063/customlingallery.git"
