@@ -4,8 +4,6 @@
       :square-mode-desktop="true"
       :responsive="true"
       :enableImageClick="true"
-      @single-image="onClickSingle"
-      :disableImageClick="true"	
       :items="[
         {
           src: 'https://picsum.photos/600/600/?image=0',
@@ -85,12 +83,6 @@ export default {
   name: 'App',
   components: {
     Lingallery
-  },
-
-  methods: { 
-    onClickSingle() {
-      console.log('insidemethod');
-    }
   }
 }
 </script>
